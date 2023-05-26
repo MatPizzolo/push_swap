@@ -6,7 +6,7 @@
 /*   By: mpizzolo <mpizzolo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 10:35:21 by mpizzolo          #+#    #+#             */
-/*   Updated: 2023/05/20 15:47:53 by mpizzolo         ###   ########.fr       */
+/*   Updated: 2023/05/25 16:05:31 by mpizzolo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,6 @@ int	main(int argc, char **argv)
 		free_stacks(stack_a, stack_b);
 		return (write(2, "Error\n", 6), 0);
 	}
-	printwholestruct(stack_a);
 	if (check_swapnoprint(stack_a))
 		return (free_stacks(stack_a, stack_b), 0);
 	handle_algos_depend_len(stack_a, stack_b);

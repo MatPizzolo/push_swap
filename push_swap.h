@@ -6,7 +6,7 @@
 /*   By: mpizzolo <mpizzolo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 12:53:45 by mpizzolo          #+#    #+#             */
-/*   Updated: 2023/05/20 13:07:58 by mpizzolo         ###   ########.fr       */
+/*   Updated: 2023/05/25 15:58:36 by mpizzolo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,6 +91,11 @@ void			handle_fourfive_args(int argc, t_list **stack_a,
 					t_list **stack_b);
 
 void			handle_more_args(t_list **stack_a, t_list **stack_b);
+
+// Handle Algo 4/5
+void			first_steps(int argc, t_list **stack_a, t_list **stack_b);
+
+void			pushing_big(t_list **stack_a, t_list **stack_b);
 
 // UTILS
 int				after_which_index(int num, t_list **stack);
